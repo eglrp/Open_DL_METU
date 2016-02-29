@@ -15,12 +15,12 @@ set(vl_sources
 set_source_files_properties(${vl_sources} PROPERTIES LANGUAGE C)
 add_library(vlfeat ${vl_sources})
 
-INSTALL(TARGETS vlfeat DESTINATION lib EXPORT Open_SfM_METU-targets)
-SET_PROPERTY(TARGET vlfeat PROPERTY FOLDER Open_SfM_METU/nonFree)
+INSTALL(TARGETS vlfeat DESTINATION lib EXPORT Open_DL_METU-targets)
+SET_PROPERTY(TARGET vlfeat PROPERTY FOLDER Open_DL_METU/nonFree)
 
 INSTALL(
   DIRECTORY .
-  DESTINATION include/Open_SfM_METU_dependencies/nonFree/vlfeat
+  DESTINATION include/Open_DL_METU_dependencies/nonFree/vlfeat
   COMPONENT headers
   FILES_MATCHING PATTERN "*.hpp" PATTERN "*.h"
 )
