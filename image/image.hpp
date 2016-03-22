@@ -17,6 +17,7 @@
 #include "Open_DL_METU/image/image_container.hpp"
 #include "Open_DL_METU/image/image_converter.hpp"
 #include "Open_DL_METU/image/pixel_types.hpp"
+#include "Open_DL_METU/image/file_utils.hpp"
 
 
 
